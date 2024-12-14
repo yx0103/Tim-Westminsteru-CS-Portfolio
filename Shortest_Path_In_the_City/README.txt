@@ -18,9 +18,8 @@ After computing the shortest path, the tool visually presents the route superimp
 	5.	User-Friendly Interaction:
 The command-line interface requests the start and end locations by name, making it simple for non-technical users. The entire process—geocoding, routing, and visualization—runs seamlessly within a single script.
 
+Libraries Used:
 
-Technologies & Libraries Used:
-	•	Python 3: Core programming language for data handling and integration.
 	•	OSMnx: Used to download and model street networks from OpenStreetMap.
 	•	NetworkX: Provides graph structures and fundamental shortest-path algorithms.
 	•	Requests: Interfacing with the OpenCage Geocoding API.
