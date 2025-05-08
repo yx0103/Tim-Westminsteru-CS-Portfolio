@@ -1,1 +1,18 @@
+https://github.com/cmpt322-2025sp/project-hoodies-n-a-dream
+The above link will link you to the orginal repository github page. 
 
+
+Our CMPT 322 project, “Hoodies n a Dream,” delivers a browser‑based, multiplayer math‑racing game aimed at 1st–2nd graders. 
+Up to three students connect to a shared room code, choose a difficulty (single‑ or double‑digit addition/subtraction), 
+and race cartoon cars around a track by answering 20 timed equations. Correct answers propel the car forward; mistakes impose a short delay, 
+creating real‑time competition that ends when the first car crosses the finish line. A post‑game screen shows the leaderboard and offers an instant rematch for all players. 
+The stack centers on Deno for the server (handling room management, WebSocket messaging, and question logic) and a lightweight JS/HTML/CSS front‑end, giving teachers an easy,
+Nitro‑Type‑style tool to reinforce arithmetic fluency.
+
+Building the prototype taught me far more than the syntax of new tools.
+I learned how to design a real‑time, event‑driven architecture—spawning
+and synchronizing game rooms, streaming questions, and updating each client’s state without race conditions. 
+On the front end I practiced crafting UI that’s attractive yet cognitively accessible to early‑elementary students,
+balancing bright visuals with minimal text. Coordinating a four‑person team forced disciplined Git workflows and agile task‑splitting,
+while Deno’s permissions model drove home modern security principles. Overall, the project deepened my understanding of full‑stack web development,
+multiplayer networking, and the pedagogical mechanics that turn raw math drills into genuinely engaging play.
